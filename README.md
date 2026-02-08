@@ -1,34 +1,29 @@
-🎨 Air Sketch using Hand Gestures (OpenCV + MediaPipe)
+# Air Sketch
 
-Draw in the air using just your fingers!
-This project uses computer vision and hand-gesture recognition to turn your webcam into an interactive sketching canvas.
+A simple air drawing application using hand tracking with MediaPipe and OpenCV.
 
-You can:
+## Description
 
-✍️ Draw by pinching your index finger & thumb
+Air Sketch turns your webcam into a virtual whiteboard. Using a single hand, you can draw in the air by making a "pinch" gesture (bringing thumb and index finger close together). The index fingertip acts as a virtual pen, drawing smooth red lines on a transparent canvas overlaid on the live camera feed.
 
-🧼 Clear the canvas using a virtual CLEAR button
+## Features
 
-🖐️ Control everything without touching the keyboard or mouse
+- **Pinch-to-draw**: Bring thumb and index finger close to start drawing; release to stop.
+- **Smooth drawing**: Lines are smoothed using exponential moving average for natural feel.
+- **Clear button**: A virtual "CLEAR" button in the top-left corner. Pinch while hovering the index finger over it to erase the entire canvas.
+- **Mirror view**: Camera feed is flipped horizontally for intuitive control.
+- **Real-time hand landmarks**: Visual feedback with MediaPipe hand skeleton overlay.
 
-🚀 Demo Concept
+## Requirements
 
-Pinch gesture → Start drawing
+- Python 3.6+
+- OpenCV (`opencv-python`)
+- MediaPipe (`mediapipe`)
+- NumPy (`numpy`)
 
-Move finger while pinched → Draw lines
+## Installation
+bash
+pip install opencv-python mediapipe numpy
 
-Pinch + touch CLEAR button → Reset canvas
-
-Release pinch → Stop drawing
-
-🧠 Tech Stack
-
-Python
-
-OpenCV – webcam handling & drawing
-
-MediaPipe – real-time hand landmark detection
-
-NumPy – canvas operations
-
-📦 Requirements
+## Contact & Support
+work.suryasnata@gmail.com
