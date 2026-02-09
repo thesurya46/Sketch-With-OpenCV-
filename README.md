@@ -14,7 +14,7 @@ Air Sketch turns your webcam into a virtual whiteboard. Using a single hand, you
 - **Mirror view**: Camera feed is flipped horizontally for intuitive control.
 - **Real-time hand landmarks**: Visual feedback with MediaPipe hand skeleton overlay.
 
-## Requirements
+## Requirements :
 
 - Python 3.6+
 - OpenCV (`opencv-python`)
