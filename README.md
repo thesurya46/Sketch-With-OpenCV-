@@ -1,4 +1,4 @@
-# Air Sketch
+# Air Sketch :-
 
 A simple air drawing application using hand tracking with MediaPipe and OpenCV.
 
@@ -27,3 +27,4 @@ pip install opencv-python mediapipe numpy
 
 ## Contact & Support
 work.suryasnata@gmail.com
+
